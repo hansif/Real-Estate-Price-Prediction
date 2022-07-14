@@ -1,0 +1,31 @@
+         PRICE PREDICTION ML PROJECT OVERVIEW
+
+- PROBLEM TEARDOWN
+* we are given datasets of house prices with some features like   no.of bathrooms, no. of bedrooms
+* we have to create a model that predict price for any new house by looking at features
+* we will work with real data sets among the hundred of data sets
+
+- GETTING STARTED
+* The first question is what is the business objective and end goal of the object
+* With the model it should predict house prices and invest in its area if undervalued
+* more accurate the predictions more benefit for the real estate companies
+
+- FINDING THE CORRECT TYPE OF MODEL TO WORK UPON
+* some of the question that arises is what type of model to be used among these :-
+1) Supervised, Unsupervised or Reinforcement learning
+2) Classification or Regression
+3) Batch Learning or Online Learning techniques
+* The answer is it is supervised learning that comes under regression task and the learning is batch learning (datasets are already present and the model is already built on it)
+
+- SELECTING A PREFORMANCE MEASURE
+* A typical performance measure for regression problem is root mean square error (RMSE)
+* It is the better algorithm to try in regression problems
+
+- CHECKING ASSUMPTIONS
+* It is very important to make correct assumptions
+* Here we need not classify the prices as only regression is required and just find out the price.
+
+- CODING ENVIRONMENT
+* Jupyter notebook is one of the most prescribed open source web application for coding ml in python
+* Easy documentation and notebook like features help in understanding
+

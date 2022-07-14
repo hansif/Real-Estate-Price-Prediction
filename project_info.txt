@@ -1,0 +1,42 @@
+        REAL ESTATE PRICE PREDICTION MODEL DETAILS
+
+PANDAS :- it is a software library or package in python for accessing high performance, easy to use and fast data structures like numerical tables (data frames) and time series etc
+
+NUMPY :- it is a fundamental library for providing high performance multi - dimensional arrays to peform various calculations
+
+np.random.seed :- for generating different pseudo random numbers value inside saves state of randomness
+
+np.random.permutation :- for permuting an array in a given range
+
+iloc :- accessing an element in that index
+
+SKLEARN :- it is a robust and useful library in python for efficient tools for ml and models include classification, regression, clustering etc
+
+train_test_split(data_set, test_ratio, seed_value) :- inbuilt sklearn function that splits the dataset into test and training set w.r.t the ratio
+
+StratifiedShuffleSplit :- inbuilt function that shuffles train and test set w.r.t and class label proportionaly
+
+corr_matrix :- a correlation matrix to get the relation between 2 or more variables (-1 < val < 1)
+if +ve then both are in increasing or decreasing nature
+if -ve both are opposite in nature
+
+scatter_matrix :- a scatter plot to plot the correlation b/w variables through histogram and other pictorial represenation
+
+SimpleImputer :- it is an estimator that fills the missing places present in the dataset
+
+Pipeline :- The purpose of the pipeline is to assemble several steps that can be cross-validated together while setting different parameters
+
+StandardScaler :- It removes the mean feature scales it into unit variance
+
+Linear Regression :- Linear Regression is the supervised Machine Learning model in which the model finds the best fit linear line between the independent and dependent variable i.e it finds the linear relationship between the dependent and independent variable.
+
+Decision Tree Regression :-  Decision tree regression observes features of an object and trains a model in the structure of a tree to predict data in the future to produce meaningful continuous output. Continuous output means that the output/result is not discrete, i.e., it is not represented just by a discrete, known set of numbers or values.
+
+Random Forest Refression :- A random forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting
+
+rmse :- root mean squared error is a measure to evaluate how much error the predictions caused from its real targets
+
+cross_val_score :- it evaluates the score by cross - validation
+
+joblib :- a directory to save all machine learning models for future use and comparisons here dump means serialize(saving) the object and load means deserialize(restoring) the object
+
