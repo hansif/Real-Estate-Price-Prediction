@@ -36,7 +36,7 @@ Random Forest Refression :- A random forest is a meta estimator that fits a numb
 
 rmse :- root mean squared error is a measure to evaluate how much error the predictions caused from its real targets
 
-cross_val_score :- it evaluates the score by cross - validation
+cross_val_score :- it evaluates the score by cross - validation, cross-validation is the technique of avoiding overfitting in your model specially in cases where data is limited
 
 joblib :- a directory to save all machine learning models for future use and comparisons here dump means serialize(saving) the object and load means deserialize(restoring) the object
 
